@@ -31,23 +31,23 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, alterId: 0, cipher: auto, tls: true, servername: "breezy-orchard-9ca3-bac48498.pages.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "breezy-orchard-9ca3-bac48498.pages.dev"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, alterId: 0, cipher: auto, tls: true, servername: "breezy-orchard-9ca3-bac48498.pages.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "breezy-orchard-9ca3-bac48498.pages.dev"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]", server: breezy-orchard-9ca3-bac48498.pages.dev, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]", server: 104.19.52.189, port: 2083, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]", server: 104.18.33.203, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]", server: 172.67.72.242, port: 2083, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]", server: 104.17.190.93, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]", server: 104.17.158.0, port: 8443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]", server: 104.17.27.39, port: 8443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]", server: 104.16.241.184, port: 2053, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]", server: 172.67.79.204, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]", server: 104.17.184.160, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]", server: 8.39.125.60, port: 2053, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]", server: 188.164.248.85, port: 2087, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]", server: 162.159.38.16, port: 8443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]", server: 104.17.107.169, port: 2096, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]", server: 162.159.39.2, port: 2096, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]", server: 104.16.145.177, port: 2053, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]", server: 104.19.149.184, port: 2087, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=149.248.199.173, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]", server: breezy-orchard-9ca3-bac48498.pages.dev, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]", server: 104.17.106.175, port: 2096, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]", server: 162.159.38.93, port: 2083, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]", server: 104.17.19.50, port: 2087, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]", server: 104.17.190.153, port: 2083, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]", server: 8.39.125.51, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]", server: 172.66.2.81, port: 2096, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]", server: 104.17.176.196, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]", server: 104.19.34.45, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]", server: 91.193.59.94, port: 2096, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]", server: 188.164.248.140, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]", server: 104.19.50.209, port: 2087, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]", server: 104.19.52.48, port: 2087, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]", server: 104.19.150.30, port: 443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]", server: 104.16.242.68, port: 2053, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]", server: 108.162.198.181, port: 2083, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]", server: 104.19.34.196, port: 8443, type: vless, uuid: ef661490-4e8e-439f-8a75-13fa9863c997, tls: true, skip-cert-verify: false, servername: breezy-orchard-9ca3-bac48498.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /461475671192/proxyip=143.110.169.110, headers: {Host: breezy-orchard-9ca3-bac48498.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,22 +59,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,44 +82,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -127,22 +127,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,22 +169,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -197,22 +197,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova breezy-orchard-9ca3-bac48498.pages.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.52.189:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.18.33.203:443 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.72.242:2083 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.190.93:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.158.0:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.27.39:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.241.184:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 172.67.79.204:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.184.160:443 [VLESS]
-      - سرویس رایگان نوا @irnova 8.39.125.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 188.164.248.85:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.38.16:8443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.17.107.169:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 162.159.39.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.16.145.177:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.19.149.184:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.106.175:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.38.93:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.19.50:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.190.153:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 8.39.125.51:443 [VLESS]
+      - سرویس رایگان نوا @irnova 172.66.2.81:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 104.17.176.196:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.45:443 [VLESS]
+      - سرویس رایگان نوا @irnova 91.193.59.94:2096 [VLESS]
+      - سرویس رایگان نوا @irnova 188.164.248.140:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.50.209:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.52.48:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.150.30:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.16.242.68:2053 [VLESS]
+      - سرویس رایگان نوا @irnova 108.162.198.181:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.19.34.196:8443 [VLESS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
